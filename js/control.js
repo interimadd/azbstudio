@@ -1,7 +1,4 @@
-console.log("pitp")
-
 function header(){
-    console.log("hogepiyo")
     $.ajax({
         url: "../header.html",
         cache: false,
