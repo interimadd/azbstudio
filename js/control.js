@@ -9,3 +9,15 @@ function header(){
         }
     });
 }
+
+function fotter(){
+    $.ajax({
+        url: "../fotter.html",
+        cache: false,
+        async: false,
+        dataType: 'html',
+        success: function(html){
+            document.write(html);
+        }
+    });
+}
